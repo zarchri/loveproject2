@@ -84,13 +84,15 @@ nav{
     background-color: orange;
  }
  /* media query: laptop and bigger (768px and up)*/
- @media screen and (min-width: 768px) {
-    /*Header*/
+ @media screen and ( min-width: 768px) {
+    
+  /*Header*/
     nav {
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content;padding-right: 1rem;
+        width: fit-content;
+        padding-right: 1rem;
     }
     #menu{
         display: flex;
