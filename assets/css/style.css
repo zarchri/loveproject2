@@ -80,10 +80,10 @@ nav{
     margin-top: 47px;
  }
  /*Hero section*/
- #Hero {
+ #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url('../images/hero-image.webp') no-repeat center/hover;
  }
 /*Footer*/
 #social-networks{
