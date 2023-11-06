@@ -179,6 +179,22 @@ nav{
                                 }
 
  }
+ #cirkle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 200px;
+    /*make the image square into a cirkle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+ }
+ #benefits-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
  /*Larger devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
     #menu a:hover{
