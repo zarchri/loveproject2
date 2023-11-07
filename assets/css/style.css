@@ -118,6 +118,14 @@ nav{
     padding: 5%;
     color: #3a3a3a;
 }
+/*Media query: larger or landscape phones (576px and up)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+    
+}
  /* media query: laptop and bigger (768px and up)*/
  @media screen and ( min-width: 768px) {
     
@@ -170,6 +178,10 @@ nav{
    #benefits-mental>div {
     text-align: end;
     align-self: flex-end;
+   }
+   /*Gallery*/
+   #photos {
+    column-count: 3;
    }
 
     #reasons {
@@ -253,7 +265,10 @@ nav{
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
-    
+    /*Gallery*/
+    #photos {
+        column-count: 4;
+    }
 }
     
  @media screen and (min-width: 1200px) {
