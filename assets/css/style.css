@@ -79,7 +79,7 @@ nav{
 /*Main*/
  main{
     
-    /*Make main element take up any surplus space to push footer down*/
+    /*enlarge main element to push footer down*/
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
@@ -89,7 +89,7 @@ nav{
  }
  /* Form */
  #signup {
-     background-image: url("../images/signup-image.webp");
+     background-image: url("../images/signup-image.webp") ;
      background-size: cover;
      background-position: 75%;
      padding: 20px 10% 0 10%;
